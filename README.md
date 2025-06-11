@@ -14,9 +14,9 @@ CycleGAN solves this problem by learning to change images from one style to anot
 # ARCHITECTURE OF CYCLEGAN
 # 1. GENERATOR : Create new image in target style
 
-![GENERATOR](https://media.geeksforgeeks.org/wp-content/uploads/20200529210740/cycleconsistencyandlosses.PNG)CycleGAN has two generators G and F:
+![GENERATOR](https://media.geeksforgeeks.org/wp-content/uploads/20200529210740/cycleconsistencyandlosses.PNG)
 
-
+CycleGAN has two generators G and F:
 1. G transforms images from domain X like photos to domain Y like artwork.
 2. F transforms images from domain Y back to domain X.
 
