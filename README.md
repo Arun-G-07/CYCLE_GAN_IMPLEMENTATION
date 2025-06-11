@@ -43,6 +43,7 @@ CycleGAN solves this problem by learning to change images from one style to anot
 2. PatchGAN breaks the image into smaller patches (e.g 70×70 patches). It outputs a grid (like 70×70 values) where each value judges if the corresponding patch is real or fake.
 
 This lets PatchGAN focus on local details such as textures and small patterns rather than the whole image at once it helps in improving the quality of generated images.
+
 ![DISCRIMINATOR-ARCHITECTURE](https://media.geeksforgeeks.org/wp-content/uploads/20200605220731/Discriminator.jpg)
 
 # COST FUNCTIONS IN CYCLE-GAN
