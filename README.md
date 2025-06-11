@@ -6,8 +6,9 @@ Generative Adversarial Networks (GANs) use two neural networks i.e a generator t
 
 CycleGAN solves this problem by learning to change images from one style to another without needing matching pairs. It understands the features of the new style and transforms the original images accordingly. This makes it useful for tasks like changing seasons in photos, turning one animal into another or converting pictures into paintings. In this article we will see more about CycleGAN and its core concepts.
 
-1. The process starts with an input image(xx) and Generator G translates it to the target domain like turning a photo into a painting. Then generator F takes this transformed image and maps it back     to the original domain helps in reconstructing an image close to the input.
-2. The model measures the difference between the original and reconstructed images using a loss function like mean squared error. This cycle consistency loss helps the network to learn meaningful,      reversible mappings between the two domains.
+1. The process starts with an input image(xx) and Generator G translates it to the target domain like turning a photo into a painting. Then generator F takes this transformed image and maps it back to the original domain helps in reconstructing an image close to the input.
+2. The model measures the difference between the original and reconstructed images using a loss function like mean squared error. This cycle consistency loss helps the network to learn meaningful,reversible mappings between the two domains.
+
 ![CYCLE-GAN](https://media.geeksforgeeks.org/wp-content/uploads/20200529210742/pairedvsunpaired.PNG)
 
 # ARCHITECTURE OF CYCLEGAN
